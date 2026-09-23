@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Смета ремонта — квартира Ирины</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div><p class="eyebrow">Квартира Ирины · Лимассол · ≈71 м²</p><h1>Из чего складывается бюджет ремонта</h1></div>
+      <button id="copyBtn">Скопировать резюме</button>
+    </header>
+
+    <section class="anchors">
+      <article><span>Ориентир полного ремонта</span><strong>€80–100 тыс.</strong><small>со слов Алексея</small></article>
+      <article><span>Электрика</span><strong>€6–7 тыс.</strong><small>со слов Алексея</small></article>
+      <article class="warm"><span>Тёплый пол</span><strong>до €8 тыс.</strong><small>со слов Алексея · включён в расчёт как €8 000</small></article>
+      <article><span>Сантехника</span><strong>до €4 тыс.</strong><small>со слов Алексея</small></article>
+    </section>
+
+    <section class="controls panel">
+      <div><label>Сценарий</label><div class="segmented" id="scenario"><button data-v="economy">Экономный</button><button class="active" data-v="realistic">Реалистичный</button><button data-v="expanded">Расширенный</button></div></div>
+      <div><label for="duration">Срок: <b id="durationLabel">4,5 месяца</b></label><input id="duration" type="range" min="3" max="6" value="4.5" step="1.5"></div>
+      <div><label for="reserve">Резерв: <b id="reserveLabel">12%</b></label><input id="reserve" type="range" min="8" max="20" value="12" step="1"></div>
+    </section>
+
+    <section class="summary">
+      <article class="total panel"><p>Расчётный бюджет</p><strong id="total">€0</strong><span id="range">—</span><div id="verdict" class="verdict"></div></article>
+      <article class="chart panel"><div class="chartHead"><div><p>Структура бюджета</p><small>нажмите на строку ниже, чтобы включить или выключить</small></div><span id="baseTotal"></span></div><div id="bar" class="bar"></div><div id="legend" class="legend"></div></article>
+    </section>
+
+    <section class="panel details">
+      <div class="sectionHead"><div><p class="eyebrow">Детализация</p><h2>Работы и покупки</h2></div><div class="key"><span class="dot alexey"></span> Алексей <span class="dot market"></span> рыночный ориентир <span class="dot quote"></span> нужен расчёт</div></div>
+      <div id="rows"></div>
+    </section>
+
+    <section class="panel services">
+      <div class="sectionHead"><div><p class="eyebrow">Твоя работа</p><h2>Этапы, функции и результаты</h2><p class="intro">Короткое описание видно сразу. Нажмите на этап, чтобы открыть полный состав без сокращений.</p></div></div>
+      <div id="serviceRows"></div>
+    </section>
+
+    <section class="timeline panel">
+      <div class="sectionHead"><div><p class="eyebrow">Срок 3–6 месяцев</p><h2>Почему длительность не умножается на ставку бригады</h2></div></div>
+      <p>Специалисты заходят по очереди, между этапами бывают технологические и логистические паузы. Поэтому календарные 6 месяцев не означают 6 месяцев полной бригады каждый рабочий день.</p>
+      <div class="phases"><span style="--w:18%">Демонтаж</span><span style="--w:24%">Черновые</span><span style="--w:22%">Инженерия</span><span style="--w:26%">Отделка</span><span style="--w:10%">Финал</span></div>
+    </section>
+
+    <footer><b>Рабочая модель, не финальная смета.</b> Цены без подтверждённых коммерческих предложений отмечены отдельно. Площадь и объёмы требуют обмера; НДС включается после уточнения режима каждого подрядчика.</footer>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
