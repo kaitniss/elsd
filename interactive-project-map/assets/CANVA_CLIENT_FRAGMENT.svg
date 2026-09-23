@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1350" viewBox="0 0 1080 1350" role="img" aria-labelledby="t d">
+  <title id="t">Ремонт квартиры Ирины — клиентская схема этапов</title>
+  <desc id="d">Пять этапов от брифа до приёмки и три решения, которые нельзя подтверждать до проверки.</desc>
+  <rect width="1080" height="1350" fill="#F7F4EF"/>
+  <rect x="68" y="64" width="944" height="1222" rx="32" fill="#FFFFFF"/>
+  <text x="120" y="150" font-family="Arial, sans-serif" font-size="46" font-weight="700" fill="#25323B">Ремонт квартиры Ирины</text>
+  <text x="120" y="202" font-family="Arial, sans-serif" font-size="25" fill="#60717B">Что открывает следующий этап</text>
+  <line x1="162" y1="292" x2="162" y2="870" stroke="#D7E1DE" stroke-width="10"/>
+  <g font-family="Arial, sans-serif">
+    <g><circle cx="162" cy="310" r="34" fill="#55AFA2"/><text x="162" y="321" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">1</text><text x="230" y="300" font-size="27" font-weight="700" fill="#25323B">Бриф и проверка фактов</text><text x="230" y="337" font-size="21" fill="#60717B">Границы ремонта, сохраняемые вещи, условия проживания</text></g>
+    <g><circle cx="162" cy="448" r="34" fill="#55AFA2"/><text x="162" y="459" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">2</text><text x="230" y="438" font-size="27" font-weight="700" fill="#25323B">Обмеры и согласованный проект</text><text x="230" y="475" font-size="21" fill="#60717B">План и 3D сверяем с объектом до технических решений</text></g>
+    <g><circle cx="162" cy="586" r="34" fill="#55AFA2"/><text x="162" y="597" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">3</text><text x="230" y="576" font-size="27" font-weight="700" fill="#25323B">Бюджет и готовность к старту</text><text x="230" y="613" font-size="21" fill="#60717B">Смета, роли, договор, образцы и закупки</text></g>
+    <g><circle cx="162" cy="724" r="34" fill="#55AFA2"/><text x="162" y="735" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">4</text><text x="230" y="714" font-size="27" font-weight="700" fill="#25323B">Демонтаж, инженерия, испытания</text><text x="230" y="751" font-size="21" fill="#60717B">После вскрытий обновляем решения; скрытое принимаем до закрытия</text></g>
+    <g><circle cx="162" cy="862" r="34" fill="#55AFA2"/><text x="162" y="873" text-anchor="middle" font-size="30" font-weight="700" fill="#FFFFFF">5</text><text x="230" y="852" font-size="27" font-weight="700" fill="#25323B">Отделка, мебель, свет, приёмка</text><text x="230" y="889" font-size="21" fill="#60717B">Контрольные замеры, запуск систем и закрытие замечаний</text></g>
+  </g>
+  <rect x="110" y="955" width="860" height="218" rx="24" fill="#FFF0F0"/>
+  <text x="148" y="1008" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#B42318">НЕ ПОДТВЕРЖДАЕМ ДО ПРОВЕРКИ</text>
+  <g font-family="Arial, sans-serif" font-size="21" fill="#6F2722">
+    <text x="148" y="1057">• Проёмы — до осмотра и конструктивной проверки</text>
+    <text x="148" y="1101">• Пол и гидроизоляция — до замеров, вскрытия и испытаний</text>
+    <text x="148" y="1145">• Скрытые сети — до обследования, расчётов и тестов</text>
+  </g>
+  <text x="120" y="1234" font-family="Arial, sans-serif" font-size="19" fill="#60717B">Ключевые решения утверждает Ирина; технические — профильные специалисты.</text>
+</svg>
